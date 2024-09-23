@@ -1,3 +1,23 @@
 .jumbotron{
-    background-image: url();
+    background-image: url("../img/grand-peaks-mount-cook.avif");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top;
 }
+* {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 30.33%;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
